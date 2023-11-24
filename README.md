@@ -18,8 +18,8 @@ Projeto proposto pelo professor André Felipe. <br/>
 | Anna Clara Gomes           | 422142003 |
 | Roger Freitas              | 422221521 |
 | Gabriel Bernardes Gherardi | 422222195 |
-| Ryan Freitas               | 422137686 |
-| Arthur Augusto             | 422222654 |
+| Arthur augusto oliveira    | 422222654 |
+| Lucas Rodrigues Ramos      | 422222503 |
   
 
 
