@@ -10,6 +10,37 @@ Projeto proposto pelo professor André Felipe. <br/>
   <img alt="membros" src="https://github.com/A3-2023/A3-Estruturas-Matematicas/blob/main/banner2.png?raw=true" width="100%">
 </p>
 
+---
+
+<!-- Social badges section -->
+<!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
+<!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
+<p align="center">
+  
+[![Gabrielle - 422221763](https://img.shields.io/badge/Gabrielle-422221763-pink?style=for-the-badge&logo=github&logoColor=pink)](https://github.com/gabriellesote)
+ 
+</p>
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 || Nomes                      | RA        |
 |-|----------------------------|-----------|
