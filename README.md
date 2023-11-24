@@ -1,9 +1,5 @@
-
-  
-  <h1 align="center"> Estruturas Matemáticas  A3 </h1>
-
-<p align="center">
-Projeto proposto pelo professor André Felipe. <br/>
+<h1 align="center"> Integração Prática de Matrizes e Sistemas Lineares em Estruturas de Programação </h1>
+<p align="align">
 
 ##  🧙‍♂️ Membros
 <p align="center">
