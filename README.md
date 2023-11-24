@@ -20,6 +20,7 @@ Projeto proposto pelo professor André Felipe. <br/>
 | Gabriel Bernardes Gherardi | 422222195 |
 | Arthur augusto oliveira    | 422222654 |
 | Lucas Rodrigues Ramos      | 422222503 |
+| Ryan Freitas               | 422137686 |
   
 
 
