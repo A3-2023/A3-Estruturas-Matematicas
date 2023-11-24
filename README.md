@@ -48,13 +48,8 @@ Projeto proposto pelo professor André Felipe. <br/>
 
 || Nomes                      | RA        |
 |-|----------------------------|-----------|
-|1| Gabrielle Soares           | 422221763 |
-|2| Samuel Faria Garcia        | 42111586  |
-|3| Anna Clara Gomes           | 422142003 |
 |4| Roger Freitas              | 422221521 |
-|5| Gabriel Bernardes Gherardi | 422222195 |
 |6| Ryan Freitas               | 422137686 |
-|7| Lucas Rodrigues Ramos      | 422222503 |
 |8| Arthur Augusto Oliveir     | 422222654 |
 
 
