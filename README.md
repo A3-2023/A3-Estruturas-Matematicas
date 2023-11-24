@@ -7,7 +7,7 @@ Projeto proposto pelo professor André Felipe. <br/>
 
 ##  🧙‍♂️ Membros
 <p align="center">
-  <img alt="foto do projeto" src="#" width="100%">
+  <img alt="membros" src="https://github.com/A3-2023/A3-Estruturas-Matematicas/blob/main/banner2.png?raw=true" width="100%">
 </p>
 
 
