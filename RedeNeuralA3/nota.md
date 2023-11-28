@@ -21,7 +21,7 @@ que estão associados a determinado <strong>peso</strong>. As unidades fazem ope
 <p>A rede neural presente neste projeto tem o intúito único de avaliar filmes através de notas. Durante o processamento, a rede neural determinará a qualidade de um filme 
     em "bom" ou "ruim", sendo "bom" uma nota final acima de 7 e "ruim" uma nota final abaixo de 7.</p>
 
-<p>Como dito anteriormente, RNAs (rede neural artificial) possuem uma característica distinta em sua arquitetura. Sua disposição se da em forma de camadas de processamento. No código, fiz o uso 
+<p>Como dito anteriormente, RNAs (rede neural artificial) possuem uma característica distinta em sua arquitetura. Sua disposição se da em forma de camadas de processamento. No código, fizemos o uso 
 de 3 camadas:</p>
 <ul>
     <li>A primeira camada 'layers.Input(shape=(1,))' é a camada de entrada. Ela espera um vetor de entrada de tamanho 1.</li>
