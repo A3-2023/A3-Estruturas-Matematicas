@@ -30,6 +30,7 @@ Ao término deste projeto, espera-se apresentar dois módulos Python independent
 
 ---
 <details>
+  
 <summary> <h1>🖥 Geometria Euclidiana em Gráficos 3D com OpenGL e Pygame </h1> </summary>
 
 ## Resumo do Código:
