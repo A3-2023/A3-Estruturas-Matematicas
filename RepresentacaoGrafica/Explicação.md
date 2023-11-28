@@ -1,4 +1,4 @@
- <h1> Geometria Euclidiana em Gráficos 3D com OpenGL e Pygame </h1>
+ <h1> Cubo Giratório </h1>
 
 ## 🌺 Conceitos de Álgebra Linear e Transformações Lineares na Renderização 3D:
 
