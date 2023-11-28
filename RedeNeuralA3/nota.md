@@ -1,6 +1,6 @@
 <h1><strong>Rede Neural - Avaliação de Filmes</strong></h1>
 
-<p>Olá! Essa é um projeto ainda em desenvolvimento de uma rede neural criada e treinada para realizar a 
+<p>Esse é um projeto de uma rede neural criada e treinada para realizar a 
 tarefa classificação de filmes em "bom" ou "ruim".</p>
 
 <h2>Entendendo a lógica de uma Rede Neural</h2>
