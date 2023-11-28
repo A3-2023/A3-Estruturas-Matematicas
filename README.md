@@ -1,10 +1,7 @@
-# 🖥 Representação Gráfica de um Cubo
 
+<details>
 
-<details> 
-<summary> <h2> 🤔 Sobre </h2></summary>
-
- # Geometria Euclidiana em Gráficos 3D com OpenGL e Pygame
+<summary> <h1> 🖥 Geometria Euclidiana em Gráficos 3D com OpenGL e Pygame</h1> </summary>
 
 ## Resumo do Código:
 
@@ -32,12 +29,9 @@ Esta função principal conduz as operações iniciais e principais do programa:
 
 Para desenhar objetos em um espaço tridimensional utilizando OpenGL, é imperativo empregar conceitos essenciais da geometria euclidiana. Pontos, vetores, matrizes e transformações desempenham papéis cruciais nesse processo. As coordenadas dos objetos são especificadas em um sistema de coordenadas 3D, seguindo as regras da geometria euclidiana. A aplicação prática desses conceitos é evidenciada pelo código, que utiliza coordenadas tridimensionais para representar um cubo giratório no espaço. Essa abordagem destaca a utilização direta de álgebra linear e transformações lineares na criação e manipulação de objetos visuais tridimensionais.
 
-</details>
 
 
-
-<details> 
-<summary> <h2> 📚 Depedências</h2></summary>
+ <h2> 📚 Depedências</h2>
   É necessário rodar o código no Python, com as bibliotecas Pygame e OpenGl.
 
 Instale o Pygame com
