@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="banner" src="https://github.com/A3-2023/.github/blob/main/profile/A3.png?raw=true">
+</p>
+
 # Estruturas Matemáticas A3
 
 ### Objetivo do Projeto:  
