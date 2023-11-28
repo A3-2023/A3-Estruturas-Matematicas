@@ -9,7 +9,7 @@ humano. É um tipo de processo de machine learning, que usa <strong>nós ou neur
 Uma rede neural artificial (ou RNA) é composta por vários neurônios, cujo funcionamento é bastante simples. Geralmente, os neurônios são conectadas por canais de comunicação 
 que estão associados a determinado <strong>peso</strong>. As unidades fazem operações apenas sobre seus dados locais, que são entradas recebidas pelas suas conexões.</p>
 
-<p>As arquiteturas neurais são tipicamente organizadas entre <strong>camadas</strong, e cada camada está conectada com a camada anterior:</p>
+<p>As arquiteturas neurais são tipicamente organizadas entre <strong>camadas</strong>, e cada camada está conectada com a camada anterior:</p>
 <ul>
     <li>Camada de Entrada: onde os padrões são apresentados à rede;</li>
     <li>Camadas Intermediárias ou Ocultas: onde é feita a maior parte do processamento, através das conexões ponderadas; podem ser consideradas como extratoras de características;</li>
