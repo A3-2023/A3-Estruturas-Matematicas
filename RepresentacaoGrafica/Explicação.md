@@ -1,27 +1,106 @@
- <h1>🖥 Geometria Euclidiana em Gráficos 3D com OpenGL e Pygame </h1>
+ <h1> Geometria Euclidiana em Gráficos 3D com OpenGL e Pygame </h1>
 
-## Resumo do Código:
+## ⌨ Resumo do Código:
 
-O código em questão emprega a biblioteca Pygame em conjunto com OpenGL para criar uma interface gráfica e renderizar um cubo tridimensional em constante rotação. Vamos explorar as principais características do código:
+ ### Importação de Bibliotecas
+ ``` python 
+import pygame
+from pygame.locals import *
+from OpenGL.GL import *
+from OpenGL.GLU import *
+```
+O código importa as bibliotecas necessárias, `pygame` é usada para criar janelas e lidar com eventos, enquanto `OpenGL.GL` e `OpenGL.GLU` são usadas para a renderização gráfica em 3D.
 
-### Definição de Vértices e Arestas:
+### Definição de Vértices e Arestas
+``` python
+vertices = (
+    (1, -1, -1),
+    (1, 1, -1),
+    (-1, 1, -1),
+    (-1, -1, -1),
+    (1, -1, 1),
+    (1, 1, 1),
+    (-1, 1, 1),
+    (-1, -1, 1),
+)
 
-No contexto tridimensional, o código define os vértices do cubo por meio da lista `vertices`, contendo coordenadas tridimensionais. As arestas, representadas na lista `edges`, são pares de índices conectando os vértices.
+edges = (
+    (0, 1),
+    (0, 3),
+    (0, 4),
+    (1, 2),
+    (1, 5),
+    (2, 3),
+    (2, 6),
+    (3, 7),
+    (4, 5),
+    (4, 7),
+    (5, 6),
+    (6, 7)
+)
+```
+Aqui, são definidos os vértices e as arestas que compõem um cubo. Os vértices são coordenadas tridimensionais, e as arestas são pares de índices referentes aos vértices.
 
-### Função Cube():
 
-A função `Cube()` desempenha um papel fundamental ao utilizar OpenGL para desenhar as arestas do cubo. Por meio de loops, percorre as arestas e vértices, desenhando linhas que compõem a estrutura tridimensional.
+### Função Cube
+``` python
+def Cube():
+    glBegin(GL_LINES)
+    for edge in edges:
+        for vertex in edge:
+            glVertex3fv(vertices[vertex])
+    glEnd()
+```
+A função `Cube()` desenha as arestas do cubo utilizando o OpenGL. `glBegin(GL_LINES`) indica o início do desenho de linhas, e `glEnd()` indica o término.
 
-### Função main():
 
-Esta função principal conduz as operações iniciais e principais do programa:
-- Inicializa o Pygame e configura a janela OpenGL.
-- Define a perspectiva tridimensional usando `gluPerspective`.
-- Translada a cena para trás ao aplicar `glTranslatef`.
-- Entra em um loop principal, onde a rotação do cubo é aplicada continuamente.
-- A função `Cube()` é chamada para renderizar o cubo.
-- A janela é atualizada, e o loop continua.
+### Função main
+``` python
+def main():
+    pygame.init()
+    display = (800, 600)
+    pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
 
+    gluPerspective(45, (display[0] / display[1]), 0.1, 50.0)
+    glTranslatef(0.0, 0.0, -5)
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+
+        glRotatef(1, 3, 1, 1)
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+        Cube()
+        pygame.display.flip()
+        pygame.time.wait(10)
+
+main()
+```
+A função `main()` inicializa o Pygame, configura a janela OpenGL, define a perspectiva usando `gluPerspective`, e translada a cena para trás usando `glTranslatef`.
+
+###Loop Principal: 
+```
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+
+        glRotatef(1, 3, 1, 1)
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+        Cube()
+        pygame.display.flip()
+        pygame.time.wait(10)
+```
+- O loop principal aguarda eventos do Pygame. Se o evento de fechamento da janela ocorrer, o programa é encerrado.
+- A cena é rotacionada em torno do eixo `(3, 1, 1)` usando `glRotatef`.
+- O buffer de cores e o buffer de profundidade são limpos, e a função `Cube()` é chamada para desenhar o cubo.
+- A tela é atualizada e aguarda-se 10 milissegundos antes da próxima iteração.
+
+
+No geral, o código cria uma aplicação simples que exibe um cubo 3D rotacionando em uma janela gráfica. A rotação é realizada continuamente dentro de um loop principal.
 
 ---
 
