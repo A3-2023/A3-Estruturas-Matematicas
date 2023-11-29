@@ -18,16 +18,8 @@ A divisão em subgrupos proporcionou uma abordagem mais especializada na escolha
 Ao término deste projeto, espera-se apresentar dois módulos Python independentes, desenvolvidos de maneira colaborativa por subgrupos especializados. A utilização eficiente de plataformas de comunicação e colaboração proporcionou um ambiente propício para a consecução dos objetivos, destacando a capacidade da equipe em trabalhar de forma integrada, mesmo em contextos subdivididos.
 
 
-
-
-
-
-
-
-
-
-
-
 ---
+
 <details>
+
 
