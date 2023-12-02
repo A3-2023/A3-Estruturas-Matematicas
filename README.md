@@ -21,5 +21,30 @@ Ao término deste projeto, espera-se apresentar dois módulos Python independent
 ---
 
 <details>
+<summary> <h2>Rede Neural - Avaliação de Filmes</h2> </summary>
+  
+<h4> Sobre: </h4>
+A rede neural presente neste projeto tem o intúito único de avaliar filmes através de notas. Durante o processamento, a rede neural determinará a qualidade de um filme em "bom" ou "ruim", sendo "bom" uma nota final acima de 7 e "ruim" uma nota final abaixo de 7.   
 
+<br>
+<br>
+  
+[![Documentação](https://img.shields.io/badge/Documentação-31304D?style=for-the-badge&logo=github&logoColor=E7BCDE)](https://github.com/A3-2023/A3-Estruturas-Matematicas/blob/main/RedeNeuralA3/nota.md)
+[![Código](https://img.shields.io/badge/Código-31304D?style=for-the-badge&logo=python&logoColor=E7BCDE)](https://github.com/A3-2023/A3-Estruturas-Matematicas/blob/main/RedeNeuralA3/rede_neuralA3.py)
+  
+<h3> Integrantes: </h3>
+
+[![Samuel Faria - 42111586](https://img.shields.io/static/v1?label=Samuel+Faria&message=42111586&color=521d7a&style=for-the-badge&logo=github&logoColor=521d7a)]( https://github.com/Samfaria2002)
+[![Lucas Rodrigues - 422222503](https://img.shields.io/badge/Lucas_Rodrigues-422222503-blue?style=for-the-badge&logo=github&logoColor=blue)](https://github.com/LucasRramos)
+[![Gabriel Bernardes - 422222195](https://img.shields.io/static/v1?label=Gabriel+Bernardes&message=422222195&color=0f6103&style=for-the-badge&logo=github&logoColor=0f6103)](https://github.com/Gabber28)
+[![ Anna Clara - 422142003](https://img.shields.io/static/v1?label=+Anna+Clara&message=422142003&color=C683D7&style=for-the-badge&logo=github&logoColor=C683D7)](https://github.com/byasun)
+
+ 
+  
+
+  ---
+  
+
+
+</details>
 
