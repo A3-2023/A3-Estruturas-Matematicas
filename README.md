@@ -19,7 +19,7 @@ Ao término deste projeto, espera-se apresentar dois módulos Python independent
 
 ---
 <details>
-<summary> <h2>Rede Neural - Avaliação de Filmes</h2> </summary>
+<summary> <h2> 🎞 Rede Neural - Avaliação de Filmes</h2> </summary>
   
 <h4> Sobre: </h4>
 A rede neural presente neste projeto tem o intúito único de avaliar filmes através de notas. Durante o processamento, a rede neural determinará a qualidade de um filme em "bom" ou "ruim", sendo "bom" uma nota final acima de 7 e "ruim" uma nota final abaixo de 7.   
@@ -46,7 +46,7 @@ A rede neural presente neste projeto tem o intúito único de avaliar filmes atr
 ---
 
 <details>
-<summary> <h2>Representação Gráfica</h2> </summary>
+<summary> <h2> 👾 Representação Gráfica</h2> </summary>
   
 <h4> Sobre: </h4>
 Para desenhar objetos em um espaço tridimensional utilizando OpenGL, é imperativo empregar conceitos essenciais da geometria euclidiana. Pontos, vetores, matrizes e transformações desempenham papéis cruciais nesse processo. A aplicação prática desses conceitos é evidenciada pelo código, que utiliza coordenadas tridimensionais para representar um cubo giratório no espaço. 
