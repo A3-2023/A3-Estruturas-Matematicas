@@ -68,10 +68,6 @@ def change_shape(new_shape):
     if new_shape in vertices:
         current_shape = new_shape
 
-def render_text(font, text, position):
-    text_surface = font.render(text, True, (255, 255, 255))
-    text_rect = text_surface.get_rect(center=position)
-    pygame.display.get_surface().blit(text_surface, text_rect)
 
 def main():
     pygame.init()
@@ -100,10 +96,6 @@ def main():
         glRotatef(1, 3, 1, 1)
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         draw_shape()
-
-        instructions = f"Pressione 'C' para Cubo, 'P' para Pirâmide, 'Y' para Cilindro"
-        render_text(font, instructions, (display[0] // 2, display[1] - 20))
-
         pygame.display.flip()
         pygame.time.wait(10)
 
