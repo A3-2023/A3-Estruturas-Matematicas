@@ -38,69 +38,76 @@ import pygame
 from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
+
 ```
 </details>
 
 
 ## Definição de Vértices e Arestas
 
-Aqui, são definidos os vértices e as arestas que compõem um cubo. Os vértices são coordenadas tridimensionais, e as arestas são pares de índices referentes aos vértices.
+Aqui, são definidos os vértices e as arestas que compõem um cubo, uma pirâmede e um retângulo. Os vértices são coordenadas tridimensionais, e as arestas são pares de índices referentes aos vértices.
 
 <details>
 <summary>  <h4> Expandir </h4> </summary>
 
  
 ``` python
-vertices = (
-    (1, -1, -1),
-    (1, 1, -1),
-    (-1, 1, -1),
-    (-1, -1, -1),
-    (1, -1, 1),
-    (1, 1, 1),
-    (-1, 1, 1),
-    (-1, -1, 1),
-)
+vertices = {
+    'cube': (
+        # Coordenadas dos vértices para o cubo
+    ),
+    'pyramid': (
+        # Coordenadas dos vértices para a pirâmide
+    ),
+    'cylinder': (
+        # Coordenadas dos vértices para o cilindro
+    ),
+}
 
-edges = (
-    (0, 1),
-    (0, 3),
-    (0, 4),
-    (1, 2),
-    (1, 5),
-    (2, 3),
-    (2, 6),
-    (3, 7),
-    (4, 5),
-    (4, 7),
-    (5, 6),
-    (6, 7)
-)
+edges = {
+    'cube': (
+        # Definição das arestas para o cubo
+    ),
+    'pyramid': (
+        # Definição das arestas para a pirâmide
+    ),
+    'cylinder': (
+        # Definição das arestas para o cilindro
+    ),
+}
+
 ```
 
 </details>
 
 
 
-## Função Cube
+## Funções para Desenhar e Mudar de Forma:
 
-A função `Cube()` desenha as arestas do cubo utilizando o OpenGL. `glBegin(GL_LINES`) indica o início do desenho de linhas, e `glEnd()` indica o término.
+A função draw_shape desenha a forma atual especificada por current_shape usando as coordenadas de vértices e definições de arestas.
+
+A função change_shape muda a forma atual para a forma desejada (new_shape), desde que esta forma esteja definida nos vértices.
 
 
 <details>
 <summary> <h4> Expandir </h4> </summary>
  
 ``` python
-def Cube():
+def draw_shape():
+    # Função para desenhar a forma atual
     glBegin(GL_LINES)
-    for edge in edges:
+    for edge in edges[current_shape]:
         for vertex in edge:
-            glVertex3fv(vertices[vertex])
+            glVertex3fv(vertices[current_shape][vertex])
     glEnd()
+
+def change_shape(new_shape):
+    # Função para mudar a forma atual
+    global current_shape
+    if new_shape in vertices:
+        current_shape = new_shape
 ```
 </details>
-
-
 
 
 
