@@ -49,7 +49,8 @@ A rede neural presente neste projeto tem o intúito único de avaliar filmes atr
 <summary> <h2> 👾 Representação Gráfica</h2> </summary>
   
 <h4> Sobre: </h4>
-Para desenhar objetos em um espaço tridimensional utilizando OpenGL, é imperativo empregar conceitos essenciais da geometria euclidiana. Pontos, vetores, matrizes e transformações desempenham papéis cruciais nesse processo. A aplicação prática desses conceitos é evidenciada pelo código, que utiliza coordenadas tridimensionais para representar um cubo giratório no espaço. 
+
+Para desenhar objetos em um espaço tridimensional utilizando OpenGL, é imperativo empregar conceitos essenciais da geometria euclidiana. Pontos, vetores, matrizes e transformações desempenham papéis cruciais nesse processo. A aplicação prática desses conceitos é evidenciada pelo código, que utiliza coordenadas tridimensionais para representar um cubo, uma pirâmide e um retângulo giratório no espaço.
 
 <br>
 <br>
