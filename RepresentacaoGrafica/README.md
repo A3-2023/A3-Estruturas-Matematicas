@@ -1,6 +1,5 @@
 <details>
- <summary>
- <h1> "Renderização 3D Interativa com Pygame e OpenGL: Alternância entre Cubo, Pirâmide e Retângulo" </h1> </summary>
+ <summary> <h2> Explicação</h2> </summary>
 
 ## 🌺 Aplicação da Álgebra Linear no Código:
 
