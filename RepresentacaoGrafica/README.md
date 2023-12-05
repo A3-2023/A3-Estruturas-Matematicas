@@ -1,5 +1,6 @@
+# Explorando Gráficos 3D com Pygame e OpenGL
 <details>
- <summary> <h2> Explicação</h2> </summary>
+ <summary> <h2> 🎀Explicação do código representacao_grafica.py</h2> </summary>
 
 ## 🌺 Aplicação da Álgebra Linear no Código:
 
@@ -177,9 +178,11 @@ main()
 ```
 
 </details>
+<summary> <h2> </h2></summary>
 
-
-
+<details>
+ 
+</details>
 
 No geral, o código cria uma aplicação simples que exibe um cubo 3D rotacionando em uma janela gráfica. A rotação é realizada continuamente dentro de um loop principal.
 
