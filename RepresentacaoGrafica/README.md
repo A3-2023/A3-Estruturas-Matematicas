@@ -1,8 +1,12 @@
- <h1> Cubo Giratório </h1>
+ <h1> "Renderização 3D Interativa com Pygame e OpenGL: Alternância entre Cubo, Pirâmide e Retângulo" </h1>
 
-## 🌺 Conceitos de Álgebra Linear e Transformações Lineares na Renderização 3D:
+## 🌺 Aplicação da Álgebra Linear no Código:
 
-Para desenhar objetos em um espaço tridimensional utilizando OpenGL, é imperativo empregar conceitos essenciais da geometria euclidiana. Pontos, vetores, matrizes e transformações desempenham papéis cruciais nesse processo. As coordenadas dos objetos são especificadas em um sistema de coordenadas 3D, seguindo as regras da geometria euclidiana. A aplicação prática desses conceitos é evidenciada pelo código, que utiliza coordenadas tridimensionais para representar um cubo giratório no espaço. Essa abordagem destaca a utilização direta de álgebra linear e transformações lineares na criação e manipulação de objetos visuais tridimensionais.
+A álgebra linear é frequentemente utilizada em gráficos 3D para realizar transformações em objetos, como rotações, translações e escalas. No código em questão, a função glTranslatef é usada para realizar uma translação ao longo do eixo Z, movendo o objeto para mais perto ou mais longe do observador. Além disso, a função glRotatef é usada para aplicar uma rotação contínua ao objeto.
+
+A representação das formas tridimensionais (cubo, pirâmide, retângulo) é feita através de vértices (pontos no espaço tridimensional) e arestas (conexões entre esses pontos). Essa representação é uma aplicação direta de conceitos geométricos e, portanto, também pode ser associada a conceitos de álgebra linear, especialmente quando se lida com transformações e projeções.
+
+No contexto gráfico 3D, a álgebra linear é fundamental para entender e manipular as matrizes de transformação que são aplicadas aos vértices dos objetos para movê-los e rotacioná-los no espaço tridimensional. Embora o código em questão não aborde diretamente a manipulação manual de matrizes, a utilização das funções de OpenGL incorpora esses conceitos por trás dos panos, facilitando a exibição de objetos 3D na tela.
 
 
 
@@ -26,6 +30,7 @@ pip install PyOpenGL
 ----
 
 # ⌨ Resumo do Código:
+O código em questão é uma aplicação simples que utiliza Pygame e OpenGL para renderizar diferentes formas tridimensionais (cubo, pirâmide, retângulo) em uma janela. O usuário pode alternar entre essas formas pressionando as teclas 'C', 'P' e 'Y'. A rotação contínua da forma renderizada é controlada por um pequeno loop na função principal.
 
 ## Importação de Bibliotecas 
 
