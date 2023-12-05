@@ -1,4 +1,4 @@
-<h1><strong>Rede Neural - Avaliação de Filmes</strong></h1>
+<h1><strong> 🎞 Rede Neural - Avaliação de Filmes</strong></h1>
 
 <p>Esse é um projeto de uma rede neural criada e treinada para realizar a 
 tarefa classificação de filmes em "bom" ou "ruim".</p>
